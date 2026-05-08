@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ratio EV Charger",
+        "description": "Connect to the Ratio cloud API.",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "api_base_url": "API base URL",
+          "user_pool_id": "Cognito user pool ID",
+          "client_id": "Cognito client ID",
+          "region": "AWS region"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect or authenticate",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This Ratio account is already configured"
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "charging": {
+        "name": "Charging"
+      },
+      "car_connected": {
+        "name": "Car connected"
+      }
+    },
+    "sensor": {
+      "charging_power": {
+        "name": "Charging power"
+      }
+    }
+  }
+}

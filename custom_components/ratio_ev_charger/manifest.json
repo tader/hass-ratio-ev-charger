@@ -1,0 +1,12 @@
+{
+  "domain": "ratio_ev_charger",
+  "name": "Ratio EV Charger",
+  "after_dependencies": [],
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/tader/hass-ratio-ev-charger",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/tader/hass-ratio-ev-charger/issues",
+  "requirements": ["pycognito>=2024.5.1", "requests>=2.25.0"],
+  "version": "0.1.0"
+}
