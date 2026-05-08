@@ -1,8 +1,10 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 - 2026-05-08
 
 - Add Ratio Electric icon assets for HACS and Home Assistant integration display.
+- Add HACS validation GitHub Action.
+- Document release process requirement for GitHub Releases.
 
 ## 0.1.0 - 2026-05-08
 
