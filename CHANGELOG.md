@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 - 2026-05-08
+
+- Fix HACS validation metadata and bundled brand asset path.
+
 ## 0.1.1 - 2026-05-08
 
 - Add Ratio Electric icon assets for HACS and Home Assistant integration display.
