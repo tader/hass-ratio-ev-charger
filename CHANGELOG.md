@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Add Ratio Electric icon assets for HACS and Home Assistant integration display.
+
 ## 0.1.0 - 2026-05-08
 
 - Initial HACS-ready custom integration for Ratio EV Charger.
